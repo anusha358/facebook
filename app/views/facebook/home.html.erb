@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <header>
+
+    <title>
+     facebook home page
+    </title>
+    <link rel="stylesheet" href="fb_home.css">
+</header>
+<body> 
+    
+  <div class='page'>
+        
+    <div class="titlebar"> 
+        
+        <p id= "title"> facebook </p>
+        <input type="submit" value="Login" id="login">
+        
+        <div id="password">
+                <textarea class="text1"> Password </textarea>
+                <form> 
+                  <input type="password" class=text2>
+                </form>
+                <p> <%= link_to 'forgot Password?', facebook_forgot_path, :class => 'link1' %></p>
+                <!--
+                <p class="link1" > <%= link_to 'forgot Password?', facebook_forgot_path %> </p>
+                -->
+                
+            </div>
+            
+         <div id="Email">
+                <textarea class = "text1"> Email or Phone </textarea>
+                <form> 
+                  <input type="email" class=text2>
+                  <p class="text3">
+                <input type="radio" value="Keep me logged in">Keep me signed in
+                  </p>
+                </form>
+                
+         </div>        
+    </div>
+      
+      <div id="middlepage">
+        
+        <div class="rightpage">   
+            <div id="title2"> sign up</div>
+            <div id="text4"> Its free and always will be.</div>
+            <div id="form">
+                <form>
+                    <input type="text" name="First name" placeholder="First Name" maxlength="30px" size="30px">
+                    <input type="text" name="Last name" placeholder="Last Name" maxlength="30px"
+                           size="30px"> <br/> <br/>
+                    <input type="text" name="ID" placeholder="Email or mobile number" maxlength="30px"
+                           size="62px"><br/><br/>
+                    
+                    <input type="text" name="email_again" placeholder="Re-enter email or mobile number" maxlength="30px"
+                           size="62px"> <br/><br/>
+                    <input type="password" name="password" placeholder="New password" maxlength="10px"
+                           size="62px"> <br/> <br/>
+                    <p> Birthday</p>
+                    <select name="month" id="month">
+                    <option value="Month" > Month </option>
+                    <option value="Jan">January</option>
+                    <option value="feb"> February</option>
+                        <option value="Mar"> March </option>
+                        <option value="Apr"> April</option>
+                        <option value="May"> May</option>
+                        <option value="Jun"> June</option>
+                        <option value="Jul"> July</option>
+                        <option value="Aug"> August</option>
+                        <option value="Sep"> September</option>
+                        <option value="Oct"> October</option>
+                        <option value="Nov"> November</option>
+                        <option value="Dec"> December</option>
+                    </select>
+                            
+                    <select name="date" id="date" >
+                    <option value="Day" > Date </option>
+                    <option value="1">January</option>
+                    <option value="2"> February</option>
+                        <option value="3">  </option>
+                        <option value="4"> April</option>
+                        <option value="5"> May</option>
+                    </select>
+                    <select name="year" id="year">
+                    <option value="year"> Year</option>
+                        <option value="3"> March </option>
+                        <option value="4"> April</option>
+                        <option value="5"> May</option>
+                    </select> <br/> <br/>
+                    <p id="gender">
+                    <input type="radio" value="female"> Female
+                    <input type="radio" value="Male"> Male
+                    </p>
+                    <p id="terms"> By clicking Sign Up, you agree to our Terms and that you have read our Data Policy, including our Cookie Use. </p><br/>
+                    <br/>
+                    <input type="submit" value="Sign Up" id="signup">
+                </form>
+            
+            </div> 
+          
+        </div>
+        
+        <div class="leftpage">
+            <img id="image2" src="https://static.xx.fbcdn.net/rsrc.php/v2/ys/r/rLvRoVovKTH.png">
+            <div id="text5"> Thanks for stopping by!</div>
+            <div id="text6"> We hope to see you again soon.</div>
+            
+        </div>
+          
+          </div>
+        
+    </div>
+    
+    
+
+</body>
+
+</html>

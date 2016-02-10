@@ -1,0 +1,150 @@
+
+.page{border-color: gray;
+height:auto;
+width:1200px;
+}
+
+.titlebar{ background-color: #4a66a0;
+        border-style: solid;
+        height: 90px;
+        margin:0px 0px 0px 2px; 
+        
+}
+#middlepage{ height:550px;
+width:1200px;
+background: linear-gradient(white,#D3D8E8); 
+float:left;
+margin:10px 0px 0px 0px;}
+
+.rightpage{height:550px;
+        width:600px;
+    float:right;
+    margin:10px 30px 0px 10px;
+}
+.leftpage{height:550px;
+        width:500px;
+        float:left;
+        margin: 10px 0px 0px 2px;
+}
+
+#title{ height: 50px;
+    width:200px;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+    font-stretch:expanded;
+    font-family:sans-serif;   
+    margin:30px 0px 10px 150px;
+    float:left;
+}
+#login{background-color: #5C74A9;
+    color:white;
+    height: 25px;
+    width:60px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    margin: 30px 120px 0px 0px;  
+}
+.text1{background-color: #4a66a0;
+        color:white;
+        height: 15px;
+        width:100px;
+    font-size:12px;
+    text-align: left;
+    border-style: none;
+    
+}
+#password{ height:70px;
+        width:200px;
+        text-align: left;
+        font-size:12px;
+        float:right;
+    margin: 10px 10px 10px 0px;
+}
+
+.text3{ text-decoration: none;
+    color:white;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px 0px 10px 0px; 
+}
+.link1 {text-decoration: none;
+    color:white;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px 0px 10px 0px;}
+
+.text2{ height: 15px;
+        width:150px;
+        background-color:white;
+        color:black;
+        font-size: 12px;
+}
+#Email{ height:70px;
+        width:200px;
+        text-align: left;
+        font-size:12px;
+        float:right;
+    margin: 10px 20px 10px 0px;
+}
+#title2{ color: #333333;
+         font-family: sans-serif;
+        text-align: left;
+        font-size:37px;
+    margin:5px 0px 8px 0px;
+}
+#text4{color:#333333;
+        text-align: left;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#terms{height:30px;
+    width:350px;
+    border-style: none;
+    font-size: 12px;
+color: #7D777E}
+
+#signup{background:#598A45;
+    color:white;
+    height: 40px;
+    width:200px;
+    border-radius: 7px;
+    border-color: #2C5115;
+    border-width: thin;
+    font-size: 19px;
+    text-align: center;
+    font-family:sans-serif;
+    text-emphasis: 50px;
+    margin: 10px 120px 0px 0px; 
+}
+#image2{height: 300px;
+    width: 350px;
+    margin-left: 100px;
+    }
+#text5{height: 100px;
+    width:300px;
+    text-align: center;
+font-family:sans-serif;
+color:#3B5DAA;
+    font-size: 40px;
+    font-weight:lighter;
+    margin-left: 100px;
+}
+
+#text6{height: 100px;
+    width:250px;
+    text-align: center;
+font-family:sans-serif;
+color:#4E5665;
+    font-size: 25px;
+    font-weight:lighter;
+    margin-top: 10px;
+    margin-left: 125px;
+}
+
+
+
+
